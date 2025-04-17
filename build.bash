@@ -26,7 +26,7 @@ git pull --ff
 # --no-suggest: Suprime las sugerencias de paquetes.
 # --optimize-autoloader: Optimiza la carga automática de clases para mejorar el rendimiento.
 # --prefer-dist: Prefiere descargar los paquetes como distribuciones (archivos zip/tar.gz) si están disponibles.
-composer install --no-interaction --no-progress --no-suggest --optimize-autoloader --prefer-dist
+composer install --no-interaction --no-progress --optimize-autoloader --prefer-dist
 
 # Ejecuta las migraciones de la base de datos.
 # --force: Fuerza la ejecución de las migraciones en un entorno de producción sin confirmación.
