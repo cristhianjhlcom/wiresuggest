@@ -49,9 +49,5 @@ php artisan optimize:clear
 # Esto puede incluir la generación de archivos de caché y la optimización de la carga de clases.
 php artisan optimize
 
-# Reinicia el servicio del servidor web Nginx para que los nuevos cambios sean aplicados.
-# Esto asegura que la aplicación actualizada sea servida correctamente.
-sudo systemctl restart nginx
-
 # Saca la aplicación del modo de mantenimiento, haciéndola accesible a los usuarios nuevamente.
 php artisan up

@@ -17,5 +17,6 @@
     </head>
     <body>
         <h1>Wiresuggest 🤔</h1>
+        <p>This is a simple example of a Wiresuggest page.</p>
     </body>
 </html>
